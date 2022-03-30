@@ -1,1 +1,1 @@
-Algorithms go here
+Algorithms for Trimester 3
