@@ -9,6 +9,7 @@ import ship
 import swap
 import tree
 from algorithms import factorial
+from algorithms import palindrome
 
 # Main list of [Prompts, Actions]
 # One style is supported to execute abstracted logic (using exec is not secure)
@@ -19,9 +20,12 @@ main_menu = [
     ["Tree", tree.tree],
 ]
 
-patterns_sub_menu = [
+animations_sub_menu = [
     ["Ship", ship.ship],
-    ["Factorial", factorial.get_factorial],
+]
+
+patterns_sub_menu = [
+    ["Palindrome", palindrome.is_a_palindrome],
 ]
 algorithms_sub_menu = [
     ["Factorial", factorial.get_factorial],
@@ -41,8 +45,9 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Main Menu" + banner
     menu_list = main_menu.copy()
+    menu_list.append(["Animations", animations_submenu])
     menu_list.append(["Patterns", patterns_submenu])
-    menu_list.append(["Algorithms", algorithms_sub_menu])
+    menu_list.append(["Algorithms", algorithms_submenu])
     
     buildMenu(title, menu_list)
 
@@ -51,9 +56,9 @@ def menu():
 # sub_menu works similarly to menu()
 
 
-def submenu():
+def animations_submenu():
     title = "Animations Submenu" + banner
-    buildMenu(title, sub_menu)
+    buildMenu(title, animations_sub_menu)
 
 
 def patterns_submenu():
@@ -68,7 +73,10 @@ def buildMenu(banner, options):
     # header for menu
     print(banner)
     # build a dictionary from options
-    prompts = {0: ["Exit", None]}
+    if (banner[0:4] == "Main"):
+        prompts = {0: ["Exit", None]}
+    else:
+        prompts = {0: ["Main Menu", None]}
     for op in options:
         index = len(prompts)
         prompts[index] = op

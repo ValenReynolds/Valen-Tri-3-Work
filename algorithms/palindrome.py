@@ -1,5 +1,13 @@
 import re
 
+def is_a_palindrome():
+    # get user choice
+    choice = input("Enter string to run through palindrome checker: ")
+    if Palindrome(choice).isPalindrome == True:
+        print ("Congratulations ", choice, " is a Palindrome")
+    else:
+        print ("Sorry", choice, " is not a Palindrome")
+
 class Palindrome:
     # palindrome initializer method
     def __init__(self, candidate):
