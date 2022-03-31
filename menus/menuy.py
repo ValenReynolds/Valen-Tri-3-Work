@@ -10,6 +10,7 @@ import swap
 import tree
 from algorithms import factorial
 from algorithms import palindrome
+from algorithms import primes
 
 # Main list of [Prompts, Actions]
 # One style is supported to execute abstracted logic (using exec is not secure)
@@ -29,6 +30,7 @@ patterns_sub_menu = [
 ]
 algorithms_sub_menu = [
     ["Factorial", factorial.get_factorial],
+    ["Primes", primes.is_prime_number],
 ]
 
 
