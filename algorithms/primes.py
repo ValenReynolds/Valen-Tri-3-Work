@@ -1,7 +1,24 @@
-
+def is_prime_number():
+    choice = input("Enter number to see if it is prime: ")
+    if Primes(int(choice)).is_prime_number(int(choice)) == True:
+        print (choice, " is a prime number")
+        return True
+    else:
+        print (choice, " is not a prime number")
+        return False
+    
 class Primes:
-# Use imperative programming to display all the prime numbers within an interval
+# Use OO programming to display all the prime numbers within an interval
     prime_nums = []
+
+    def is_prime_number(self, num):
+        if num in self.prime_nums:
+            return True
+        else:
+            return False
+
+    def __init__(self, prime):
+        self.primes_between (0, prime)
 
     def primes_between(self, lower, upper):
         for num in range(lower, upper + 1):
@@ -13,13 +30,12 @@ class Primes:
                 else:
                     self.prime_nums.append(num)
 
-    def print_prime_nums(self):\
+    def print_prime_nums(self):
         print("Primes are", self.prime_nums)
-
 
 if __name__ == "__main__":
     '''Value for testing'''
-    p = Primes()
-    p.primes_between(1,100)
+    p = Primes(100)
     p.print_prime_nums()
+    is_prime_number()
 
