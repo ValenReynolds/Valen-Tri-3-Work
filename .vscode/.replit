@@ -1,0 +1,3 @@
+run="python menuy.py"
+language="python3"
+onBoot="echo Booting up!"
