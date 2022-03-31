@@ -21,6 +21,7 @@ main_menu = [
 
 patterns_sub_menu = [
     ["Ship", ship.ship],
+    ["Factorial", factorial.get_factorial],
 ]
 algorithms_sub_menu = [
     ["Factorial", factorial.get_factorial],
@@ -38,7 +39,7 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 
 
 def menu():
-    title = "Function Menu" + banner
+    title = "Main Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Patterns", patterns_submenu])
     menu_list.append(["Algorithms", algorithms_sub_menu])
@@ -51,16 +52,16 @@ def menu():
 
 
 def submenu():
-    title = "Function Submenu" + banner
+    title = "Animations Submenu" + banner
     buildMenu(title, sub_menu)
 
 
 def patterns_submenu():
-    title = "Function Submenu" + banner
+    title = "Patterns Submenu" + banner
     buildMenu(title, patterns_sub_menu)
 
 def algorithms_submenu():
-    title = "Function Submenu" + banner
+    title = "Algorithms Submenu" + banner
     buildMenu(title, algorithms_sub_menu)
 
 def buildMenu(banner, options):
@@ -101,6 +102,9 @@ def buildMenu(banner, options):
     except ValueError:
         # not a number error
         print(f"Not a number: {choice}")
+    except TypeError:
+        # not a number error
+        print(f"Type Error - maybe menus are set up wrong: {choice}")
     except UnboundLocalError:
         # traps all other errors
         print(f"Invalid choice: {choice}")

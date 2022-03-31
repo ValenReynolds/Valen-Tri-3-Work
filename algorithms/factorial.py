@@ -4,10 +4,10 @@ import math
 def get_factorial():
     # get user choice
     choice = input("Enter factor: ")
-    Factor.factorial(choice) 
+    Factor.myfactorial(int(choice)) 
 
 class Factor:
-    def factorial(n):
+    def myfactorial(n):
         if n < 0:
             return math.nan
 
@@ -21,7 +21,9 @@ class Factor:
 
     # Test Code
 if __name__ == "__main__":
-    '''Value for testing'''
+    get_factorial()
+    '''Value for testing
     n = 20
     for i in range(n):
-        print("Factor (",i,") = ", Factor.factorial(i))
+        print("Factor (",i,") = ", Factor.myfactorial(i))
+    '''
