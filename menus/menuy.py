@@ -1,22 +1,29 @@
 # menuy.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
-
+import sys
+from pathlib import Path
+path = str(Path(Path(__file__).parent.absolute()).parent.absolute())
+sys.path.insert(0, path)
 import ship
 import swap
 import tree
+from algorithms import factorial
 
 # Main list of [Prompts, Actions]
 # One style is supported to execute abstracted logic (using exec is not secure)
 # 1. External function references are executed directly file.function()
 # 2. Internal function references are called directly "function()"
 main_menu = [
-    ["Swap", swap.swap],
+    ["Swap", swap.swap_items],
     ["Tree", tree.tree],
 ]
 
 patterns_sub_menu = [
-    ["Funcy", ship.ship],
+    ["Ship", ship.ship],
+]
+algorithms_sub_menu = [
+    ["Factorial", factorial.get_factorial],
 ]
 
 
@@ -34,6 +41,8 @@ def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Patterns", patterns_submenu])
+    menu_list.append(["Algorithms", algorithms_sub_menu])
+    
     buildMenu(title, menu_list)
 
 # def submenu
@@ -50,6 +59,9 @@ def patterns_submenu():
     title = "Function Submenu" + banner
     buildMenu(title, patterns_sub_menu)
 
+def algorithms_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, algorithms_sub_menu)
 
 def buildMenu(banner, options):
     # header for menu

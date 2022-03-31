@@ -1,9 +1,12 @@
 import math
 # Python code to demonstrate naive method
 # to compute factorial
+def get_factorial():
+    # get user choice
+    choice = input("Enter factor: ")
+    Factor.factorial(choice) 
 
 class Factor:
-
     def factorial(n):
         if n < 0:
             return math.nan
