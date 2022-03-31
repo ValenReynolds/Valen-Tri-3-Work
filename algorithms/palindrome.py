@@ -25,6 +25,9 @@ class Palindrome:
     # palindrome tester method
     def is_palindrome(self):
         c = self._az09
+        if re.search("^[a-zA-Z0-9]", self._candidate) == None:
+            self._is_a_palindrome = False
+            return False
         # Run loop from 0 to len/2 of string (middle is exit point)
         tests = int(len(c) / 2)
         for i in range(0, tests):
@@ -74,3 +77,5 @@ if __name__ == '__main__':
     # longest true Palindrome
     if (Palindrome("tattarrattat").isPalindrome):
         print ("tattarrattat is a Palindrome")
+
+    is_a_palindrome()
