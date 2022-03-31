@@ -1,5 +1,11 @@
+import sys
+from pathlib import Path
+path = str(Path(Path(__file__).parent.absolute()).parent.absolute())
+sys.path.insert(0, path)
+from utilities import get_input 
+
 def is_prime_number():
-    choice = input("Enter number to see if it is prime: ")
+    choice = get_input.get_integer ("Enter number to see if it is prime: ")
     if Primes(int(choice)).is_prime_number(int(choice)) == True:
         print (choice, " is a prime number")
         return True

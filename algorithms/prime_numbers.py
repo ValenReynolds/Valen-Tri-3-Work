@@ -1,4 +1,9 @@
 # Use imperative programming to display all the prime numbers within an interval
+import sys
+from pathlib import Path
+path = str(Path(Path(__file__).parent.absolute()).parent.absolute())
+sys.path.insert(0, path)
+from utilities import get_input
 
 def primes_between(lower, upper):
     for num in range(lower, upper + 1):
