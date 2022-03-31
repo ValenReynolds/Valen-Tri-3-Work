@@ -22,3 +22,7 @@ class TestPalindrome(TestCase):
     def test_onesyllable_palindrome(self):
         pal = Palindrome("a").isPalindrome
         self.assertTrue(pal)
+        
+    def test_invalid_palindrome(self):
+        pal = Palindrome("()*&^").isPalindrome
+        self.assertFalse(pal)
