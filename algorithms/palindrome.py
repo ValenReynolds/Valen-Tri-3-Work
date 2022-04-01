@@ -4,11 +4,11 @@ from pathlib import Path
 path = str(Path(Path(__file__).parent.absolute()).parent.absolute())
 sys.path.insert(0, path)
 
-from utilities import alphanumeric
+from utilities import alphanumbers
 
 def palindrome_checker():
     # get user choice
-    choice = alphanumeric.get_alphanumeric("Enter string to run through palindrome checker: ")
+    choice = alphanumbers.get_alphanumeric("Enter string to run through palindrome checker: ")
     if Palindrome(choice).isPalindrome == True:
         print ("Congratulations ", choice, " is a Palindrome")
     else:
