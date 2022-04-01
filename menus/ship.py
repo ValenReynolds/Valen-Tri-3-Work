@@ -42,7 +42,7 @@ def ship():
     # loop purpose is to animate ship sailing
     for position in range(start, distance, step):
         ship_print(position)  # call to function with parameter
-        time.sleep(.1)
+        time.sleep(.05)
 
 if __name__ == "__main__":
     ship()
