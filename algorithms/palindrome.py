@@ -1,8 +1,14 @@
 import re
+import sys
+from pathlib import Path
+path = str(Path(Path(__file__).parent.absolute()).parent.absolute())
+sys.path.insert(0, path)
 
-def is_a_palindrome():
+from utilities import alphanumeric
+
+def palindrome_checker():
     # get user choice
-    choice = input("Enter string to run through palindrome checker: ")
+    choice = alphanumeric.get_alphanumeric("Enter string to run through palindrome checker: ")
     if Palindrome(choice).isPalindrome == True:
         print ("Congratulations ", choice, " is a Palindrome")
     else:
@@ -78,4 +84,4 @@ if __name__ == '__main__':
     if (Palindrome("tattarrattat").isPalindrome):
         print ("tattarrattat is a Palindrome")
 
-    is_a_palindrome()
+    palindrome_checker()

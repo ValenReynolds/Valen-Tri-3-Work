@@ -6,7 +6,7 @@ from pathlib import Path
 path = str(Path(Path(__file__).parent.absolute()).parent.absolute())
 sys.path.insert(0, path)
 import ship
-import swap
+from algorithms import swap
 import tree
 from algorithms import factorial
 from algorithms import palindrome
@@ -26,7 +26,7 @@ animations_sub_menu = [
 ]
 
 patterns_sub_menu = [
-    ["Palindrome", palindrome.is_a_palindrome],
+    ["Palindrome", palindrome.palindrome_checker],
 ]
 algorithms_sub_menu = [
     ["Factorial", factorial.get_factorial],

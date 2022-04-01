@@ -6,7 +6,7 @@ def swap(first, second):
     return first, second
 
 def swap_items():
-        # get user choice
+    # get user choice
     first = input("Enter first number: ")
     second = input("Enter second number: ")
     first, second = swap(first, second)
