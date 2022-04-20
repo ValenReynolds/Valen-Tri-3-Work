@@ -6,8 +6,8 @@
 Link to Replit https://replit.com/@valenryanreynol/Valen-Tri-3-Work#.replit
 
 ## Review Tickets
-### Some got deleted by mistake
-Review Ticket #1 https://github.com/TristanCopley/photoboard/issues/2
+### A bunch of reviews got deleted by mistake
 
-Review Ticket #2 https://github.com/TristanCopley/photoboard/issues/13
+[Week 3](https://github.com/ValenReynolds/Valen-Tri-3-Work/issues/1)
 
+[Week 4](https://github.com/ValenReynolds/Valen-Tri-3-Work/issues/2)
