@@ -8,15 +8,12 @@
 ## Table of contents
 
 - [Replits](#replit)
+- [Review Tickets](#Review Tickets)
 - [Sponsors 🏆](#sponsors)
 - [**Build your website in 3 steps**](#build-your-website-in-3-steps)
 - [Plans](#plans)
 - [Add your own content](#add-your-own-content)
-- [Customizing parameters for each page](#customizing-parameters-for-each-page)
-- [Supported parameters](#supported-parameters)
-- [Featured users (success stories!)](#featured-users-success-stories)
 - [FAQ and support](#faq-and-support)
-- [Credits and contributions](#credits)
 
 # Replits
 
@@ -26,12 +23,16 @@ __Check out [*Menus.py*](https://replit.com/@valenryanreynol/Valen-Tri-3-Work#.r
 - **Algorithms**: All the latest swap(), fibonacci(), factorial(), and more
 - **Animations**: Console animation sailing ships
 - **Functions**: Call functions in separate files dynamically.
-- **Feedback and Suggestion**: Add a comment to my repo.. Coming soon built in [CommentBox](https://commentbox.io/)
 
-<h2 id="sponsors">Sponsors 🏆</h2>
+<iframe height="800px" width="100%" src="https://replit.com/@valenryanreynol/Valen-Tri-3-Work#.replit?lite=true"></iframe>
+
 
 Thanks to our teachers and the open source community that provide the code examples and learning we use to get our projects working!
 
+# Review Tickets
+
+[Week 3](https://github.com/ValenReynolds/Valen-Tri-3-Work/issues/1)
+[Week 4](https://github.com/ValenReynolds/Valen-Tri-3-Work/issues/2)
 
 # Build your website in 3 steps
 
