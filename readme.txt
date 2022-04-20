@@ -1,4 +1,4 @@
-# Jun's Trimester 3 Personal GitHub page
+# Valen's Trimester 3 Personal GitHub page
 
 ## Replit Work
 
