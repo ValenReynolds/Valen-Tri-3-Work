@@ -10,6 +10,7 @@
 - [Replits](#replit)
 - [Reviews](#reviews)
 - [Repositories](#Repositories)
+- [Wikis](#Wikis)
 - [Sponsors](#sponsors) 
 
 
@@ -42,7 +43,8 @@
 
 Thanks to our teachers and the open source community that provide the code examples and learning we use to get our projects working!
 
+<iframe height="800px" width="100%" src="https://github.com/YashShah138/Team-MicrosoftTechSupport/wiki/Protocol,-TCP-IP,-UDP,-HTTP,-GET,-POST)"></iframe>
 
 # Wikis
 
-[![Gem Version](https://github.com/YashShah138/Team-MicrosoftTechSupport/wiki/Protocol,-TCP-IP,-UDP,-HTTP,-GET,-POST)
+![](./wikis.svg)
