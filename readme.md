@@ -8,7 +8,7 @@
 ## Table of contents
 
 - [Replits](#replit)
-- [Review Tickets](#Review Tickets)
+- [Reviews](#reviews)
 - [Sponsors](#sponsors) 
 - [Repositories](#Repositories)
 
@@ -24,11 +24,7 @@
 - **Animations**: Console animation sailing ships
 - **Functions**: Call functions in separate files dynamically.
 
-# Sponsors
-
-Thanks to our teachers and the open source community that provide the code examples and learning we use to get our projects working!
-
-# Review Tickets
+# Reviews
 
 - [Week 3](https://github.com/ValenReynolds/Valen-Tri-3-Work/issues/1)
 
@@ -41,5 +37,9 @@ Thanks to our teachers and the open source community that provide the code examp
 - [Valen Nighthawk CSP](https://github.com/ValenReynolds/nighthawk_csp)
 
 - [Team Project Tri-2](https://github.com/YashShah138/Team-MicrosoftTechSupport) 
+
+# Sponsors
+
+Thanks to our teachers and the open source community that provide the code examples and learning we use to get our projects working!
 
 
