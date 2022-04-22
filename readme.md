@@ -1,6 +1,6 @@
 [![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fdark-web-hacker&psig=AOvVaw1HI3b8zGKe9EQkmEz3fZ-0&ust=1650573511241000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPCmyNS_o_cCFQAAAAAdAAAAABAD)](https://github.com/ValenReynolds/Valen-Tri-3-Work/)
 
-# Valen Reynolds Trimester 3 Work
+# Valen Reynolds Development Work
 
 
 [![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
