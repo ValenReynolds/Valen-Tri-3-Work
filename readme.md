@@ -15,7 +15,9 @@
 
 # Replits
 
-__Check out [*Menus.py*](https://replit.com/@valenryanreynol/Valen-Tri-3-Work#.replit) to see the latest features!
+- [*Menus.py*](https://replit.com/@valenryanreynol/Valen-Tri-3-Work#.replit) 
+
+- [Valen Beach Word Scramble](https://replit.com/@valenryanreynol/Beach-Guessing-Game#Team-MicrosoftTechSupport/main.py)
 
 - **Menu System**: See menu and sub-menu sysems in action
 - **Algorithms**: All the latest swap(), fibonacci(), factorial(), and more
