@@ -1,6 +1,6 @@
 {% include navigation.html %}
 
-# Documentation Of Project  - Jun
+# Project Documentation  
 
 - [Menus](documentation/menus)
 - [CSP Hacks](documentation/csphacks)
