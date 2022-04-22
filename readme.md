@@ -45,6 +45,3 @@ Thanks to our teachers and the open source community that provide the code examp
 
 <iframe height="800px" width="100%" src="https://github.com/YashShah138/Team-MicrosoftTechSupport/wiki/Protocol,-TCP-IP,-UDP,-HTTP,-GET,-POST)"></iframe>
 
-# Wikis
-
-![](./wikis.svg)
