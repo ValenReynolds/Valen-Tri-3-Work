@@ -9,8 +9,8 @@
 
 - [Replits](#replit)
 - [Reviews](#reviews)
-- [Sponsors](#sponsors) 
 - [Repositories](#Repositories)
+- [Sponsors](#sponsors) 
 
 
 # Replits
