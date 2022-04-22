@@ -29,12 +29,15 @@ Thanks to our teachers and the open source community that provide the code examp
 # Review Tickets
 
 [Week 3](https://github.com/ValenReynolds/Valen-Tri-3-Work/issues/1)
+
 [Week 4](https://github.com/ValenReynolds/Valen-Tri-3-Work/issues/2)
 
 # Repositories
 
 [Valen Tri-3 Work](https://github.com/ValenReynolds/Valen-Tri-3-Work/)
+
 [Valen Nighthawk CSP](https://github.com/ValenReynolds/nighthawk_csp)
+
 [Team Project Tri-2](https://github.com/YashShah138/Team-MicrosoftTechSupport) 
 
 
