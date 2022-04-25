@@ -1,7 +1,11 @@
-{% include default.html %}
+--- 
+layout: default
+permalink: /docs/
+---
 
 # Project Documentation  
 
+- [Home](index)
 - [Menus](menu)
 - [Create Task Word Scramble](wordscramble)
 - [CSP Hacks](csphacks)
