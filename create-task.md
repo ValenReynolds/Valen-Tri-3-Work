@@ -1,6 +1,6 @@
 --- 
 layout: default
-permalink: /docs/
+permalink: /create-task/
 ---
 {% include navigation.html %}
 
