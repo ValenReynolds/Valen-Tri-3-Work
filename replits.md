@@ -1,4 +1,8 @@
-{% include navigation.html %} 
+--- 
+layout: default
+permalink: /replits/
+---
+
 
 # Replit Repositories
 - [Valen Beach Word Scramble](https://replit.com/@valenryanreynol/Beach-Guessing-Game#Team-MicrosoftTechSupport/main.py)
