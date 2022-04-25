@@ -4,8 +4,7 @@ permalink: /docs/
 ---
 
 # Project Documentation  
-
-- [Home](../home)
+- [Home](../index)
 - [Menus](../menu)
 - [Create Task Word Scramble](../wordscramble)
 - [CSP Hacks](../csphacks)
