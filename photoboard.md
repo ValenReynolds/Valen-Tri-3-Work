@@ -1,7 +1,4 @@
---- 
-layout: default
-permalink: /photoboard/
----
+[Documentation Home](docs)
 
 # Documentation 
 
