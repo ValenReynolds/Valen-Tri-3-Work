@@ -1,7 +1,8 @@
-[Back to Documentation home](../docs)
-layout: page
-title: Valen Menus
-permalink: /doc/
+--- 
+layout: default
+permalink: /docs/
+---
+
 
 # Documentation 
 
