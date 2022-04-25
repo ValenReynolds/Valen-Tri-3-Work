@@ -5,58 +5,72 @@ permalink: /wordscramble/
 
 [Home](../index)
 
-# Documentation - Create Task 
-## Documentation
+# Documentation  
+## Create Task Design
 [Create Plan Design and Ideas](https://docs.google.com/document/d/14YG7ZscxqKMrEArx1GuzEqcIB_f6ZqT086UE8ttQ3lM/edit?usp=sharing)
 
 ## Valen Video - (Beach Guessing Game) 
 [https://youtu.be/k9uUI4-word scramble](https://youtu.be/k9uUI4-Haeo)
 
 
-1.0 Overview of Word Scrambler
+## Overview of Word Scrambler
 Word Scrambler is a game that presents a list of scrambled words that the player must guess. The game tracks correct and incorrect guesses, with the game ending once all words have been determined correctly. Based on how well the player performed, they receive a star rating between zero to five stars. While the game is designed to be initialized with any number of words, the star rating is fixed at zero to five. 
 <img width="566" alt="Screen Shot 2022-02-28 at 10 12 56 AM" src="https://user-images.githubusercontent.com/89166851/156035835-60b9756e-987f-45bf-99b4-02b87b7008d1.png">
-1.1 Setup
+##  Setup
 An array is initialized with the unscrambled words to be used during the game. 
 Global variables for keeping score are initialized (totalscore, etc.)
+
 <img width="282" alt="Screen Shot 2022-02-28 at 10 14 57 AM" src="https://user-images.githubusercontent.com/89166851/156036073-2e2c4ce6-5778-4005-ac4c-4390b7e0280a.png">
+
 <img width="432" alt="Screen Shot 2022-02-28 at 10 15 19 AM" src="https://user-images.githubusercontent.com/89166851/156036117-580db9be-464b-4ecb-b248-43b2468e71f6.png">
-1.1 Game Initialization
+
+## Game Initialization
 The website is initialized by calling foo() which scrambles all the words in the word list creating a new array of scrambled words. The scrambled word list is turned into a string, which gets displayed to the player.
-1.1.0 Restart Game
+### Restart Game
 The game can be restarted and re-initialized by refreshing the web browser. 
-1.2 Game Play
+##  Game Play
 The player enters a guess into the text box and either hits the Enter key or clicks on the Submit button. This triggers the javascript that processes the guess.
-1.3 Process Guesses
+### Process Guesses
 We iterate over the unscrambled word list and compare it to the guess provided by the player. 
+
 <img width="939" alt="Screen Shot 2022-02-28 at 10 17 42 AM" src="https://user-images.githubusercontent.com/89166851/156036437-c3d68358-7af4-4769-bb82-5f063500ac4a.png">
 
-1.3.1 Guessed Correctly
+### Guessed Correctly
 If there is a match, then totalscore is updated and the correctly guessed word is removed from the list of available words. The scrambled version of the word guessed correctly is also removed from the list. 
+
 <img width="691" alt="Screen Shot 2022-02-28 at 10 19 17 AM" src="https://user-images.githubusercontent.com/89166851/156036647-4bc1e523-407e-4792-bed9-f5c1e5a240ef.png">
-1.3.2 Guessed Incorrectly
+
+### Guessed Incorrectly
 The number of incorrect guesses is updated and the player is asked to try again. 
+
 <img width="719" alt="Screen Shot 2022-02-28 at 10 20 44 AM" src="https://user-images.githubusercontent.com/89166851/156036882-c89adaeb-98eb-42fd-b8b3-b0e27831e0f0.png">
-1.4 Game Over
+
+### Game Over
 When all the words have been guessed correctly the player is informed that the game is over
+
 <img width="790" alt="Screen Shot 2022-02-28 at 10 21 16 AM" src="https://user-images.githubusercontent.com/89166851/156036946-0d159508-1ddf-4527-b4fd-81ddc0fb6fd7.png">
-1.4.1 Final Score Rating
+
+### Final Score Rating
 Based on how well the player did, they receive a zero to five gold star rating. 
 The algorithm awards each star by changing the graphic from a grey star to a gold star.
-All the stars are displayed at the end at 
-<img width="677" alt="Screen Shot 2022-02-28 at 10 22 45 AM" src="https://user-images.githubusercontent.com/89166851/156037157-74dbaaff-ea10-45b9-8739-3201dbb77baf.png">
-once after the gold stars have been assigned. 
+All the stars are displayed at the end at once after the gold stars have been assigned. 
 
-1.5 Future Work 
+<img width="677" alt="Screen Shot 2022-02-28 at 10 22 45 AM" src="https://user-images.githubusercontent.com/89166851/156037157-74dbaaff-ea10-45b9-8739-3201dbb77baf.png">
+
+
+## Future Work 
 There are additional improvements that can be made to the game. In the future, I would make it where one word pops up at a time.
-1.5.1 Quitting
+### Quitting
 Allow the player to quit if they cannot guess the words. The player would get a final star rating based on how well they did up to the point they quit. 
-1.5.2 Long Word Lists
+### Long Word Lists
 The game is designed to support as many words as we add to the initial array. The display however does not format very long strings. If the game is going to handle a lot of words then the user interfaces for presenting those words should be improved from the current comma-separated list on a single line. 
 
-2.0 HTML / CSS
-2.1.0 Background
+## HTML / CSS
+### Background
 Create a fancy background with a beach theme for our game. Make it tall wide enough.
+
+<pre>
+<code>
         div.background {
             background: url(https://images.unsplash.com/photo-1528784289209-d1bf7e951bcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFjaWZpYyUyMGJlYWNofGVufDB8fDB8fA%3D%3D&w=1000&q=80) no-repeat;
             background-size: cover;
@@ -64,26 +78,39 @@ Create a fancy background with a beach theme for our game. Make it tall wide eno
             min-width: 400px;
             min-height: 600px;
         }
-2.1.1 Guessbox
+</code>
+</pre>
+
+### Guessbox
 We want a guessbox div so we can use styling features aimed at anything in that box.
+
+<pre>
+<code>
 div.guessbox p {
             margin: 10%;
             font-weight: bold;
             color: #000000;
         }
 
-2.1.2 Stars Container
+### Stars Container
 A container for all the star ratings that lets us hide and show them all as a group.
+
+<pre>
+<code>
  .stars {
             align-items: top;
             display: flex;
             height: 100vh;
             justify-content: center;
         }
-       
-2.1.3 Star Shape
+</code>
+</pre>
+
+### Star Shape
 This fancy code creates a star shape using a polygon. This was open-source code we found online. 50 pixels looks like a good size for our star. These stars are gold.
 
+<pre>
+<code>
         .clip-star {
             background: gold;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
@@ -92,9 +119,14 @@ This fancy code creates a star shape using a polygon. This was open-source code 
             width: 50px;
             align-items: center;
         }
-2.1.4 Star Shape 
+</code>
+</pre>
+
+### Star Shape 
 Exactly the same as the gold star only this star has a grey background. Maybe I could have just used one shape and changed the background color? I was able to get it working by swapping shapes.
 
+<pre>
+<code>
         .clip-star-dark {
             background: #333;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
@@ -103,18 +135,26 @@ Exactly the same as the gold star only this star has a grey background. Maybe I 
             width: 50px;
             align-items: center;
         }
+</code>
+</pre>
 
-2.2 Body 
+## Body 
 
-2.2.1 Initialize
+### Initialize
 
-This important line defines the body and also calls the javascript to initialize the game.
+This important line defines the body and also calls the javascript to initialize the game before the html page loads.
 
+<pre>
+<code>
 <body onload="initialize();">
+</code>
+</pre>
 
-2.2.2 Guessbox
+### Guessbox
 The guessing box includes a scramble word label which is used to display all the scrambled words. It has a button that calls get guess() when pressed. It has a text box guess text where the player enters in each word guess. The label score is where the score is updated as the game is played.
 
+<pre>
+<code>
  <div class="guessbox" align="center">
             <label id="solve" font-size="20"><br><h2>Solve the scrambled words!</h2></label>
             <br><br>
@@ -125,9 +165,14 @@ The guessing box includes a scramble word label which is used to display all the
             <input type="button" value="GUESS" id="guessbutton" onclick="getguess();">
             <input type="text" name="guess" id="guesstext" onfocus=this.value=''><br>Score:
           <label id="score"></label>
-    
-2.2.3 Stars
+</code>
+</pre>
+
+### Stars
 Our stars are initially all grey. They are hidden by the javascript that initializes the game.
+
+<pre>
+<code>
 <div class="stars" id="starbox">
             <div class="clip-star-dark" id="star1"></div>
             <div class="clip-star-dark" id="star2"></div>
@@ -136,6 +181,9 @@ Our stars are initially all grey. They are hidden by the javascript that initial
             <div class="clip-star-dark" id="star5"></div>
         </div>
 </div>
+</code>
+</pre>
+
 ***
 ***
 
