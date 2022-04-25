@@ -1,4 +1,7 @@
-{% include navigation.html %} 
+---
+layout: default
+permalink: /repos/
+---
 
 
 ## Repositories
