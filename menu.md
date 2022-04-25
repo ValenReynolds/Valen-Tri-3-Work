@@ -1,7 +1,4 @@
---- 
-layout: default
-permalink: /menu/
----
+[Documentation Home](docs)
 
 
 # Documentation 
