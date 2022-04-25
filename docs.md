@@ -2,6 +2,6 @@
 
 # Project Documentation  
 
-- [Menus](documentation/menus)
-- [CSP Hacks](documentation/csphacks)
-- [Photoboard](documentation/photoboard)
+- [Menus](menus)
+- [CSP Hacks](csphacks)
+- [Photoboard](photoboard)
