@@ -16,7 +16,7 @@
 
 # Replits
 
-- [Valen Beach Word Scramble](https://replit.com/@valenryanreynol/Beach-Guessing-Game#Team-MicrosoftTechSupport/main.py)
+- [Create Task Word Scramble](https://replit.com/@valenryanreynol/Beach-Guessing-Game#Team-MicrosoftTechSupport/main.py)
 
 - [*Menus.py*](https://replit.com/@valenryanreynol/Valen-Tri-3-Work#.replit) 
 
@@ -42,6 +42,4 @@
 # Sponsors
 
 Thanks to our teachers and the open source community that provide the code examples and learning we use to get our projects working!
-
-<iframe height="800px" width="100%" src="https://github.com/YashShah138/Team-MicrosoftTechSupport/wiki/Protocol,-TCP-IP,-UDP,-HTTP,-GET,-POST)"></iframe>
 
