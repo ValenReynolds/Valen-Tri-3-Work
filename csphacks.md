@@ -2,6 +2,7 @@
 layout: default
 permalink: /csphacks/
 ---
+[Home](../index)
 
 # Nighthawks CSP Code Hacks
 
