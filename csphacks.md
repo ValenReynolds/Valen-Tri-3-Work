@@ -2,9 +2,11 @@
 layout: default
 permalink: /csphacks/
 ---
-[Home](../index)
+[Documentation Home](../docs)
 
-# Nighthawks CSP Code Hacks
+# Documentation
+
+<h2>Nighthawks CSP Code Hacks</h2>
 
 ## TT3 Challenges/Hacks:
 * Hack #1 Add Phone Number to Sign Up screen
