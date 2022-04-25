@@ -6,6 +6,7 @@ permalink: /docs/
 
 # Project Documentation  
 
-- [Menus](../menu)
-- [CSP Hacks](../csphacks)
-- [Photoboard](../photoboard)
+- [Menus](menu)
+- [Create Task Word Scramble](wordscramble)
+- [CSP Hacks](csphacks)
+- [Photoboard](photoboard)
