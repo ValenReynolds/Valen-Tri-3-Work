@@ -2,7 +2,7 @@
 layout: default
 permalink: /reviews/
 ---
-[Home](../index)
+[Home](..)
 
 ## Reviews
 
