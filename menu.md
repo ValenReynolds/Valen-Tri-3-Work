@@ -1,4 +1,4 @@
-[Back to Documentation home](./docs)
+[Back to Documentation home](../docs)
 
 # Documentation 
 
