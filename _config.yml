@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-include: ['_pages']
+include: ['_pages', 'Valen-Tri-3-Work']
 relative_permalinks: false
 
 # Welcome to Beautiful Jekyll!
