@@ -1,4 +1,8 @@
 
+--- 
+layout: default
+permalink: /wordscramble/
+---
 # [Create Plan Design and Ideas](https://docs.google.com/document/d/14YG7ZscxqKMrEArx1GuzEqcIB_f6ZqT086UE8ttQ3lM/edit?usp=sharing)
 
 ***
