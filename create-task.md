@@ -2,7 +2,6 @@
 layout: default
 permalink: /create-task/
 ---
-{% include navigation.html %}
 
 
 # Create Task
