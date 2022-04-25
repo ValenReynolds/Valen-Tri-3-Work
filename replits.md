@@ -2,7 +2,7 @@
 layout: default
 permalink: /replits/
 ---
-
+[Home](../index)
 
 # Replit Repositories
 - [Valen Beach Word Scramble](https://replit.com/@valenryanreynol/Beach-Guessing-Game#Team-MicrosoftTechSupport/main.py)
