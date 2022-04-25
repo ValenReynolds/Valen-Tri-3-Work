@@ -15,6 +15,7 @@ permalink: /wordscramble/
 
 ## Overview of Word Scrambler
 Word Scrambler is a game that presents a list of scrambled words that the player must guess. The game tracks correct and incorrect guesses, with the game ending once all words have been determined correctly. Based on how well the player performed, they receive a star rating between zero to five stars. While the game is designed to be initialized with any number of words, the star rating is fixed at zero to five. 
+
 <img width="566" alt="Screen Shot 2022-02-28 at 10 12 56 AM" src="https://user-images.githubusercontent.com/89166851/156035835-60b9756e-987f-45bf-99b4-02b87b7008d1.png">
 ##  Setup
 An array is initialized with the unscrambled words to be used during the game. 
@@ -143,46 +144,13 @@ Exactly the same as the gold star only this star has a grey background. Maybe I 
 ### Initialize
 
 This important line defines the body and also calls the javascript to initialize the game before the html page loads.
-
-<pre>
-<code>
-<body onload="initialize();">
-</code>
-</pre>
+* body onload="initialize();
 
 ### Guessbox
 The guessing box includes a scramble word label which is used to display all the scrambled words. It has a button that calls get guess() when pressed. It has a text box guess text where the player enters in each word guess. The label score is where the score is updated as the game is played.
 
-<pre>
-<code>
- <div class="guessbox" align="center">
-            <label id="solve" font-size="20"><br><h2>Solve the scrambled words!</h2></label>
-            <br><br>
-            <label id="scrambleword" font-size="20"></label>
-            <div id="guessword"></div>
-
-
-            <input type="button" value="GUESS" id="guessbutton" onclick="getguess();">
-            <input type="text" name="guess" id="guesstext" onfocus=this.value=''><br>Score:
-          <label id="score"></label>
-</code>
-</pre>
-
 ### Stars
-Our stars are initially all grey. They are hidden by the javascript that initializes the game.
-
-<pre>
-<code>
-<div class="stars" id="starbox">
-            <div class="clip-star-dark" id="star1"></div>
-            <div class="clip-star-dark" id="star2"></div>
-            <div class="clip-star-dark" id="star3"></div>
-            <div class="clip-star-dark" id="star4"></div>
-            <div class="clip-star-dark" id="star5"></div>
-        </div>
-</div>
-</code>
-</pre>
+Our stars are initially all grey. They are hidden by the javascript that initializes the game. Later we turn them gold based on the scoring logic.
 
 ***
 ***
