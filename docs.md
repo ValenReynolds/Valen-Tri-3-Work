@@ -1,4 +1,4 @@
-{% include navigation.html %}
+{% include default.html %}
 
 # Project Documentation  
 
