@@ -1,4 +1,9 @@
+--- 
+layout: default
+permalink: /docs/
+---
 {% include navigation.html %}
+
 
 # Create Task
 ## Protocols TCP-IP, UDP, HTTP, GET/POST
