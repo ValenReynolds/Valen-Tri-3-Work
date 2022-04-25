@@ -1,4 +1,7 @@
-[Back to Documentation home](./docs)
+--- 
+layout: default
+permalink: /csphacks/
+---
 
 # Nighthawks CSP Code Hacks
 
