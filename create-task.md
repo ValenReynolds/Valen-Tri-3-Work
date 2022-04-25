@@ -2,7 +2,7 @@
 layout: default
 permalink: /create-task/
 ---
-[Home](index)
+[Home](../index)
 
 
 # Create Task
