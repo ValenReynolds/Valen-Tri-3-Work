@@ -1,3 +1,6 @@
+layout: page
+title: Valen Menus
+permalink: /doc/
 [Back to Documentation home](../docs)
 
 # Documentation 
