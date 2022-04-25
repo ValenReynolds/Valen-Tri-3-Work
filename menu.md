@@ -1,4 +1,4 @@
-[Documentation Home](docs)
+[Documentation Home](../docs)
 
 
 # Documentation 
