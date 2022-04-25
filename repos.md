@@ -3,9 +3,7 @@ layout: default
 permalink: /repos/
 ---
 
-# Documentation
-
-## Repositories
+# Repositories
 - [Home](../index)
 - [Valen Tri-3 Work](https://github.com/ValenReynolds/Valen-Tri-3-Work/)
 - [Valen Nighthawk CSP](https://github.com/ValenReynolds/nighthawk_csp)
