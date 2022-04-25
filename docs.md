@@ -2,7 +2,6 @@
 layout: default
 permalink: /docs/
 ---
-{% include navigation.html %}
 
 # Project Documentation  
 
