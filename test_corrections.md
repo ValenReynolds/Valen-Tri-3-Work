@@ -1,5 +1,9 @@
 ---
+layout: default
+permalink: /test_corrections/
 ---
+[Documentation Home](../docs)
+
 
 # Finals-Quiz 1
 A number of questions I got wrong because I read the question wrong. I also took it at 9pm and it was due at 10:30pm so I had to rush.
