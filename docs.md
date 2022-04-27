@@ -9,3 +9,5 @@ permalink: /docs/
 - [Create Task Word Scramble](../wordscramble)
 - [CSP Hacks](../csphacks)
 - [Photoboard](../photoboard)
+- [Test Corrections](../corrections)
+
