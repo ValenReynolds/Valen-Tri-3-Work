@@ -79,4 +79,4 @@ Which of the following describes a lossless transformation of the digital image?
 
 
 # Finals Week-2 Quiz-3
-I ran out of time to do this and could not work in class due to computer problems. Please reset this quiz so I can complete it.
+I ran out of time to do this and had some computer problems .
