@@ -72,3 +72,7 @@ Select two answers.
 Digital images are often represented by the red, green, and blue values (an RGB triplet) of each individual pixel in the image. A photographer is manipulating a digital image and overwriting the original image. 
 Which of the following describes a lossless transformation of the digital image?
 * I forgot what lossless means. I thought it could lose a little bit. The right answer is hard to understand and I don't know how lossless is done.
+
+
+# Finals Week-2 Quiz-3
+I ran out of time to do this and could not work in class due to computer problems. Please reset this quiz so I can complete it.
