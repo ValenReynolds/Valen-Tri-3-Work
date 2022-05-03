@@ -13,3 +13,5 @@ permalink: /test_corrections/
 * Question 8: I chose A because I thought that to get a pair you need to split the procedure into two parts which is not true. 
 * Question 13: I thought you just multiply by 5 then 7. 
 * Question 17: I knew it was C and D because the numbers have to be higher than the second two so A does not make sense.
+* Question 18, 19, 20, 21, 23, 24, 25, 29, and 31 to 50: I did not have time to answer these questions so I skipped them. 
+
