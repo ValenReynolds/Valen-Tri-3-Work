@@ -10,6 +10,6 @@ permalink: /docs/
 - [CSP Hacks](../csphacks)
 - [Photoboard](../photoboard)
 - [Test Corrections](../test_corrections)
-- [Test Corrections Quiz2](../test_correct_quiz2)
-- [Test Corrections Quiz3](../test_correct_quiz3)
+- [Test Corrections Quiz2](../test_corrections_quiz2)
+- [Test Corrections Quiz3](../test_corrections_quiz3)
 
