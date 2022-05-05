@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /test_corrections/
+permalink: /test_corrections_quiz2/
 ---
 [Documentation Home](../docs)
 
